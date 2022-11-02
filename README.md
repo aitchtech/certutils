@@ -15,7 +15,7 @@ Small helper scripts to manage dev certificates
 2.  Generate as many certificates for development using
     
     ```sh
-    ./gencert.sh <commonname> [keyfilepassword]
+    ./gencert.sh --help
     ```
     - .crt, .key, .pfx files will be exported in `%USERPROFILE%\certs\<commonname>`
     - .key and .pfx files default password will be `certpass` unless manually supplied

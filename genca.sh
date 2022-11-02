@@ -51,7 +51,7 @@ else
     policy          = policy_any
     email_in_dn     = no             # recommended
     unique_subject  = no             # recommended for easier certificate rollover
-    copy_extensions = copy           # don't honor the extensions in the csr
+    copy_extensions = copy           # honor the extensions in the csr
     default_md      = sha256
 
     [ policy_any ]
