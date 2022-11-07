@@ -1,0 +1,23 @@
+{
+  "name": "certutils",
+  "version": "1.0.0",
+  "description": "Self-signed certificated generation helpers for common development scenarios specifically appropriate subject alterntive names handling",
+  "main": "index.js",
+  "scripts": {
+  },
+  "bin": {
+    "genca": "genca.sh",
+    "gencert": "gencert.sh",
+    "gencsr": "gencsr.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aitchtech/certutils.git"
+  },
+  "author": "Bilal Haider",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aitchtech/certutils/issues"
+  },
+  "homepage": "https://github.com/aitchtech/certutils#readme"
+}
